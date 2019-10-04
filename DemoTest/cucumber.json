@@ -1,0 +1,220 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3363731537,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validate if user is able to see error message when he inputs invalid email id during registeration",
+        "description": "",
+        "id": "verify-the-error-message-during-user-registartion-with-invalid-email;validate-if-user-is-able-to-see-error-message-when-he-inputs-invalid-email-id-during-registeration;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 227600350,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8555769155,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Automation practice application is opened",
+            "match": {
+              "location": "RegisterStepDef.automation_practice_application_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2700492093,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click sign in",
+            "match": {
+              "location": "RegisterStepDef.i_click_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3504333082,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enter Email Id As \"sunil.rao@gmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sunil.rao@gmail",
+                  "offset": 24
+                }
+              ],
+              "location": "RegisterStepDef.bidder_Enter_Email_Id_As(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80572695,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "System Validate with Error Message As \"Invalid email address.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid email address.",
+                  "offset": 39
+                }
+              ],
+              "location": "RegisterStepDef.system_Validate_with_Error_Message_As(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@codetest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2124504969,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validate if user is able to see error message when he inputs invalid email id during registeration",
+        "description": "",
+        "id": "verify-the-error-message-during-user-registartion-with-invalid-email;validate-if-user-is-able-to-see-error-message-when-he-inputs-invalid-email-id-during-registeration;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 176878118,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8620663005,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Automation practice application is opened",
+            "match": {
+              "location": "RegisterStepDef.automation_practice_application_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2290175627,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click sign in",
+            "match": {
+              "location": "RegisterStepDef.i_click_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3434533179,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enter Email Id As \"sunilkumarbabu@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sunilkumarbabu@gmail.com",
+                  "offset": 24
+                }
+              ],
+              "location": "RegisterStepDef.bidder_Enter_Email_Id_As(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64242617,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "System Validate with Error Message As \"An account using this email address has already been registered. Please enter a valid password or request a new one.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An account using this email address has already been registered. Please enter a valid password or request a new one.",
+                  "offset": 39
+                }
+              ],
+              "location": "RegisterStepDef.system_Validate_with_Error_Message_As(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@codetest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the error message during user registartion with invalid email",
+    "description": "",
+    "id": "verify-the-error-message-during-user-registartion-with-invalid-email",
+    "keyword": "Feature",
+    "uri": "src/test/java/autoapp/automation/features/Invalid_Email.feature"
+  }
+]

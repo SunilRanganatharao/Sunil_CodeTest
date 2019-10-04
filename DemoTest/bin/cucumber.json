@@ -1,0 +1,424 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3196853561,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Validate if user is able to select an item and add to cart and change color and quantity.",
+        "description": "",
+        "id": "verify-if-the-user-is-able-to-select-an-item,-addo-to-cart-and;validate-if-user-is-able-to-select-an-item-and-add-to-cart-and-change-color-and-quantity.",
+        "after": [
+          {
+            "result": {
+              "duration": 231775271,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8457586307,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Automation practice application is opened",
+            "match": {
+              "location": "RegisterStepDef.automation_practice_application_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3418398494,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I hover on megamenu dresses and select summer dresses",
+            "match": {
+              "location": "MegamenuStepDef.i_hover_on_dresses_and_select_summerdresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18574208,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "summer dresses page is loaded",
+            "match": {
+              "location": "MegamenuStepDef.i_see_summer_dresses_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5384492892,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select a dress quickview option",
+            "match": {
+              "location": "CheckoutStepDef.i_click_on_quickview()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 336663047,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select blue color for the item and click on add to cart",
+            "match": {
+              "location": "CheckoutStepDef.i_select_blue_click_addtocart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 144329103,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate the color and quantity of the item added in the final checkout page",
+            "match": {
+              "location": "CheckoutStepDef.i_validate_color_quantity_of_item_added()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@codetest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify if the user is able to select an item, addo to cart and",
+    "description": "",
+    "id": "verify-if-the-user-is-able-to-select-an-item,-addo-to-cart-and",
+    "keyword": "Feature",
+    "uri": "Checkout.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2676646912,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validate if user is able to see error message when he inputs invalid email id during registeration",
+        "description": "",
+        "id": "verify-the-error-message-during-user-registartion-with-invalid-email;validate-if-user-is-able-to-see-error-message-when-he-inputs-invalid-email-id-during-registeration;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 231016270,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9042841175,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Automation practice application is opened",
+            "match": {
+              "location": "RegisterStepDef.automation_practice_application_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2193934054,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click sign in",
+            "match": {
+              "location": "RegisterStepDef.i_click_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 383796500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enter Email Id As \"sunil.rao@gmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sunil.rao@gmail",
+                  "offset": 24
+                }
+              ],
+              "location": "RegisterStepDef.bidder_Enter_Email_Id_As(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43067490,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "System Validate with Error Message As \"Invalid email address.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid email address.",
+                  "offset": 39
+                }
+              ],
+              "location": "RegisterStepDef.system_Validate_with_Error_Message_As(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@codetest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2136575909,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validate if user is able to see error message when he inputs invalid email id during registeration",
+        "description": "",
+        "id": "verify-the-error-message-during-user-registartion-with-invalid-email;validate-if-user-is-able-to-see-error-message-when-he-inputs-invalid-email-id-during-registeration;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 213317554,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7793369242,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Automation practice application is opened",
+            "match": {
+              "location": "RegisterStepDef.automation_practice_application_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2194990701,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click sign in",
+            "match": {
+              "location": "RegisterStepDef.i_click_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 438020113,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enter Email Id As \"sunilkumarbabu@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sunilkumarbabu@gmail.com",
+                  "offset": 24
+                }
+              ],
+              "location": "RegisterStepDef.bidder_Enter_Email_Id_As(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44752788,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "System Validate with Error Message As \"An account using this email address has already been registered. Please enter a valid password or request a new one.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An account using this email address has already been registered. Please enter a valid password or request a new one.",
+                  "offset": 39
+                }
+              ],
+              "location": "RegisterStepDef.system_Validate_with_Error_Message_As(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@codetest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the error message during user registartion with invalid email",
+    "description": "",
+    "id": "verify-the-error-message-during-user-registartion-with-invalid-email",
+    "keyword": "Feature",
+    "uri": "Invalid_Email.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2177799012,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate if user is able to hover on mega menu of dresses and select summer dresses",
+        "description": "",
+        "id": "verify-if-the-mega-menu-of-dresses-works-and-if-summer-dresses-can-be-selected;validate-if-user-is-able-to-hover-on-mega-menu-of-dresses-and-select-summer-dresses",
+        "after": [
+          {
+            "result": {
+              "duration": 172519881,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8790233170,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Automation practice application is opened",
+            "match": {
+              "location": "RegisterStepDef.automation_practice_application_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3859104103,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I hover on megamenu dresses and select summer dresses",
+            "match": {
+              "location": "MegamenuStepDef.i_hover_on_dresses_and_select_summerdresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13752325,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "summer dresses page is loaded",
+            "match": {
+              "location": "MegamenuStepDef.i_see_summer_dresses_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@codetest"
+          }
+        ]
+      }
+    ],
+    "name": "Verify if the mega menu of Dresses works and if summer dresses can be selected",
+    "description": "",
+    "id": "verify-if-the-mega-menu-of-dresses-works-and-if-summer-dresses-can-be-selected",
+    "keyword": "Feature",
+    "uri": "Megamenu.feature"
+  }
+]
